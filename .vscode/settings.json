@@ -1,0 +1,30 @@
+{
+  "liveServer.settings.CustomBrowser": "chrome",
+  "liveServer.settings.host": "localhost",
+  "liveServer.settings.root": "/web",
+  "liveServer.settings.port": 3001,
+  "liveServer.settings.ignoreFiles": [
+    ".vscode/**",
+    "**/*.scss",
+    "**/*.sass",
+    "**/*.ts"
+  ],
+  "liveServer.settings.https": {
+    "enable": false, //set it true to enable the feature.
+    "cert": "C:\\https\\server.cert", //full path
+    "key": "C:\\https\\server.key", //full path
+    "passphrase": "12345"
+  },
+  "liveServer.settings.fullReload": true,
+  "files.autoSave": "afterDelay",
+  "editor.tabSize": 2,
+  "prettier.htmlWhitespaceSensitivity": "strict",
+  "prettier.singleQuote": true,
+  "prettier.withNodeModules": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.tabWidth": 2,
+  "notebook.defaultFormatter": "vscode.markdown-language-features",
+  "[xml]": {
+    "editor.defaultFormatter": "DotJoshJohnson.xml"
+  }
+}
